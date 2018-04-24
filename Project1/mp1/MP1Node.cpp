@@ -226,9 +226,22 @@ bool MP1Node::recvCallBack(void *env, char *data, int size ) {
 
         memberNode->inGroup = true;
 
-
+        deserializeMemberListTableForJOINREPMsgReceiving(data);
 
     } else if (recvMsg->msgType == JOINREQ) {
+
+        int id;
+        short port;
+        long heartbeat;
+        memcpy(&id, data + sizeof(MessageHdr), sizeof(int));
+        memcpy(&port, data + sizeof(MessageHdr) + sizeof(int), sizeof(short));
+        memcpy(&heartbeat, data + sizeof(MessageHdr) + sizeof(int) + sizeof(short), sizeof(long));
+
+        addNodeToMemberListTable(id, port, heartbeat, memberNode->timeOutCounter);
+
+        Address address = getNodeAddress(id, port);
+
+        sendJOINREPMsg(&address);
 
     } else if (recvMsg->msgType == HEARTBEAT) {
 
@@ -296,6 +309,23 @@ void MP1Node::printAddress(Address *addr)
                                                        addr->addr[3], *(short*)&addr->addr[4]) ;    
 }
 
+void MP1Node::sendJOINREPMsg(Address* address) {
+    size_t memberListEntrySize = sizeof(int) + sizeof(short) + sizeof(long) + sizeof(long);
+
+    size_t msgsize = sizeof(MessageHdr) + sizeof(int) + memberNode->memberList.size() * memberListEntrySize;
+
+    MessageHdr* msg= (MessageHdr*) malloc(msgsize * sizeof(char));
+    msg->msgType = JOINREP;
+
+    serializeMemberListTableForJOINREPMessageSending(msg);
+};
+
+void MP1Node::serializeMemberListTableForJOINREPMessageSending(MessageHdr* data) {
+    int numOfItems = memberNode->memberList.size();
+    memcpy((char*)(data + 1), &numOfItems, sizeof(int));
+    
+}
+
 MemberListEntry* MP1Node::getNodeInMemberListTable(int id) {
     MemberListEntry* entry = NULL;
 
@@ -326,7 +356,15 @@ void MP1Node::addNodeToMemberListTable(int id, short port, long heartbeat, long 
     Address address = getNodeAddress(id, port);
 
     if (existsNodeInMemberListTable(id)) {
+        MemberListEntry* newEntry = new MemberListEntry(id, port, heartbeat, timestamp);
 
+        memberNode->memberList.insert(memberNode->memberList.end(), *newEntry);
+
+        #ifdef DEBUGLOG
+            log->logNodeAdd(&memberNode->addr, &address);
+        #endif
+
+        delete newEntry;
     }
 
 }
