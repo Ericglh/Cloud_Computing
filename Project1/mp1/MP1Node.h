@@ -31,7 +31,8 @@
 enum MsgTypes{
     JOINREQ,
     JOINREP,
-    DUMMYLASTMSGTYPE
+    DUMMYLASTMSGTYPE,
+    HEARTBEAT
 };
 
 /**
@@ -76,6 +77,12 @@ public:
 	void initMemberListTable(Member *memberNode);
 	void printAddress(Address *addr);
 	virtual ~MP1Node();
+
+    MemberListEntry* getNodeInMemberListTable(int id);
+    bool existsNodeInMemberListTable(int id);
+	Address getNodeAddress(int id, short port);
+    void addNodeToMemberListTable(int id, short port, long heartbeat, long timestamp);
+    void deserializeMemberListTableForJOINREPMsgReceiving(char* data);
 };
 
 #endif /* _MP1NODE_H_ */

@@ -71,7 +71,7 @@ void MP1Node::nodeStart(char *servaddrstr, short servport) {
     // Self booting routines
     if( initThisNode(&joinaddr) == -1 ) {
 #ifdef DEBUGLOG
-        log->LOG(&memberNode->addr, "init_thisnode failed. Exit.");
+        log->LOG(&memberNode->addr, "init_this node failed. Exit.");
 #endif
         exit(1);
     }
@@ -218,6 +218,22 @@ bool MP1Node::recvCallBack(void *env, char *data, int size ) {
 	/*
 	 * Your code goes here
 	 */
+
+    MessageHdr* recvMsg = (MessageHdr*)malloc(size * sizeof(char));
+    memcpy(recvMsg, data, sizeof(MessageHdr));
+
+    if (recvMsg->msgType == JOINREP) {
+
+        memberNode->inGroup = true;
+
+
+
+    } else if (recvMsg->msgType == JOINREQ) {
+
+    } else if (recvMsg->msgType == HEARTBEAT) {
+
+    }
+    return true;
 }
 
 /**
@@ -278,4 +294,58 @@ void MP1Node::printAddress(Address *addr)
 {
     printf("%d.%d.%d.%d:%d \n",  addr->addr[0],addr->addr[1],addr->addr[2],
                                                        addr->addr[3], *(short*)&addr->addr[4]) ;    
+}
+
+MemberListEntry* MP1Node::getNodeInMemberListTable(int id) {
+    MemberListEntry* entry = NULL;
+
+    for(vector<MemberListEntry>::iterator iter = memberNode->memberList.begin(); iter != memberNode->memberList.end(); iter++){
+        if (iter->id == id) {
+            entry = iter.base();
+            break;
+        }
+    }
+    return entry;
+}
+
+bool MP1Node::existsNodeInMemberListTable(int id) {
+    return this->getNodeInMemberListTable(id) != NULL;
+}
+
+Address MP1Node::getNodeAddress(int id, short port) {
+    Address nodeAddress;
+
+    memset(&nodeAddress, 0, sizeof(Address));
+    *(int*)(&nodeAddress.addr) = id;
+    *(short*)(&nodeAddress.addr[4]) = port;
+
+    return nodeAddress;
+}
+
+void MP1Node::addNodeToMemberListTable(int id, short port, long heartbeat, long timestamp) {
+    Address address = getNodeAddress(id, port);
+
+    if (existsNodeInMemberListTable(id)) {
+
+    }
+
+}
+
+void MP1Node::deserializeMemberListTableForJOINREPMsgReceiving(char* data) {
+    int numOfItems;
+    memcpy(&numOfItems, data + sizeof(MessageHdr), sizeof(int));
+
+    for (int i = 0; i < numOfItems; ++i) {
+        int id;
+        short port;
+        long heartbeat, timestamp;
+
+        memcpy(&id, data + sizeof(MessageHdr) + sizeof(int), sizeof(int));
+        memcpy(&port, data + sizeof(MessageHdr) + sizeof(int) * 2, sizeof(short));
+        memcpy(&heartbeat, data + sizeof(MessageHdr) + sizeof(int) * 2 + sizeof(short), sizeof(long));
+        memcpy(&heartbeat, data + sizeof(MessageHdr) + sizeof(int) * 2 + sizeof(short) + sizeof(long), sizeof(long));
+
+        // Create and insert new entry
+        addNodeToMemberListTable(id, port, heartbeat, timestamp);
+    }
 }

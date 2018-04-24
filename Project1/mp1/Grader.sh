@@ -4,11 +4,10 @@
 #*
 #* Current file: Grader.sh
 #* About this file: Grading Script.
-#* 
+#*
 #***********************
 #!/bin/sh
-
-function contains () {
+function contains(){
   	local e
   	for e in "${@:2}"
 	do 
