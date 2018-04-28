@@ -19,6 +19,7 @@
 #define MAGIC_NUMBER "CS425"
 #define DBG_LOG "dbg.log"
 #define STATS_LOG "stats.log"
+#define RANDOM "random.log"
 
 /**
  * CLASS NAME: Log
@@ -37,6 +38,7 @@ public:
 	void LOG(Address *, const char * str, ...);
 	void logNodeAdd(Address *, Address *);
 	void logNodeRemove(Address *, Address *);
+	void printinfo(char* info);
 };
 
 #endif /* _LOG_H_ */

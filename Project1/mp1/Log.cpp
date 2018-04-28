@@ -129,3 +129,21 @@ void Log::logNodeRemove(Address *thisNode, Address *removedAddr) {
 	sprintf(stdstring, "Node %d.%d.%d.%d:%d removed at time %d", removedAddr->addr[0], removedAddr->addr[1], removedAddr->addr[2], removedAddr->addr[3], *(short *)&removedAddr->addr[4], par->getcurrtime());
     LOG(thisNode, stdstring);
 }
+
+void Log::printinfo(char* info) {
+    static FILE* fp4;
+    char stdstring4[30];
+    stdstring4[0] = 0;
+    strcat(stdstring4, RANDOM);
+    if (fp4 == nullptr) {
+        fp4 = fopen(stdstring4, "w");
+    }
+
+
+	sprintf(stdstring4, "Node %d.%d.%d.%d:%d address %d", info[0], info[1], info[2], info[3], *(short *)&info[4], par->getcurrtime());
+
+
+
+	fprintf(fp4, "\n %s", stdstring4);
+
+}

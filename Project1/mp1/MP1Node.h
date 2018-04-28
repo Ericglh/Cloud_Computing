@@ -78,12 +78,19 @@ public:
 	void printAddress(Address *addr);
 	virtual ~MP1Node();
 
-    void serializeMemberListTableForJOINREPMessageSending(MessageHdr* msg);
+    void cleanUpNodeState();
+	void sendHEARTBEATMessage(Address* address);
+	bool isAddressEqualToNodeAddress(Address* address);
+
 	void sendJOINREPMsg(Address* address);
+    void sendJOINREQMessage(Address* address);
+
     MemberListEntry* getNodeInMemberListTable(int id);
     bool existsNodeInMemberListTable(int id);
 	Address getNodeAddress(int id, short port);
     void addNodeToMemberListTable(int id, short port, long heartbeat, long timestamp);
+
+    void serializeMemberListTableForJOINREPMessageSending(MessageHdr* msg);
     void deserializeMemberListTableForJOINREPMsgReceiving(char* data);
 };
 

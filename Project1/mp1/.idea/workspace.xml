@@ -11,7 +11,28 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81fd9eee-8404-423f-92de-e15cf60781c7" name="Default" comment="" />
+    <list default="true" id="81fd9eee-8404-423f-92de-e15cf60781c7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application" beforeDir="false" afterPath="$PROJECT_DIR$/Application" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application.o" beforeDir="false" afterPath="$PROJECT_DIR$/Application.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmulNet.o" beforeDir="false" afterPath="$PROJECT_DIR$/EmulNet.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Log.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log.h" beforeDir="false" afterPath="$PROJECT_DIR$/Log.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log.o" beforeDir="false" afterPath="$PROJECT_DIR$/Log.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP1Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MP1Node.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP1Node.h" beforeDir="false" afterPath="$PROJECT_DIR$/MP1Node.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MP1Node.o" beforeDir="false" afterPath="$PROJECT_DIR$/MP1Node.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Member.o" beforeDir="false" afterPath="$PROJECT_DIR$/Member.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Params.o" beforeDir="false" afterPath="$PROJECT_DIR$/Params.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mp1.dir/Application.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mp1.dir/Application.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mp1.dir/Log.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mp1.dir/Log.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mp1.dir/MP1Node.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mp1.dir/MP1Node.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/mp1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/mp1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msgcount.log" beforeDir="false" afterPath="$PROJECT_DIR$/msgcount.log" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,17 +47,8 @@
       <file leaf-file-name="MP1Node.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MP1Node.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="325" column="4" selection-start-line="325" selection-start-column="4" selection-end-line="325" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MP1Node.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MP1Node.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="81" column="42" lean-forward="true" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
+            <state relative-caret-position="-1527">
+              <caret line="237" column="42" selection-start-line="237" selection-start-column="42" selection-end-line="237" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -44,17 +56,8 @@
       <file leaf-file-name="Member.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Member.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="107" column="28" selection-start-line="107" selection-start-column="28" selection-end-line="107" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Member.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Member.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="540">
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -62,8 +65,8 @@
       <file leaf-file-name="Application.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2772">
-              <caret line="154" column="25" selection-start-line="154" selection-start-column="25" selection-end-line="154" selection-end-column="25" />
+            <state relative-caret-position="1530">
+              <caret line="85" column="3" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -71,35 +74,26 @@
       <file leaf-file-name="Params.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Params.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="846">
-              <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+            <state relative-caret-position="342">
+              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application.h">
+      <file leaf-file-name="stdincludes.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stdincludes.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+            <state relative-caret-position="450">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmulNet.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EmulNet.h">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1674">
-              <caret line="93" column="11" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmulNet.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EmulNet.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1548">
-              <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+            <state relative-caret-position="144">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -109,18 +103,45 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>clean</find>
-      <find>initMemberListTable</find>
       <find>sendJOINREPMessage</find>
       <find>emulNet</find>
       <find>addNodeToMemberListTable</find>
       <find>MemberListEntry</find>
+      <find>serializeMemberListTableForJOINREPMessageSending</find>
+      <find>iterator</find>
+      <find>finishUpThisNode</find>
+      <find>Your code goes here</find>
+      <find>initMemberListTable</find>
+      <find>removeNodeFromMemberListTable</find>
+      <find>log</find>
+      <find>cout</find>
+      <find>nodestart</find>
+      <find>printinfo</find>
+      <find>aaa</find>
+      <find>sendHEARTBEATMessage</find>
+      <find>initThisNode</find>
+      <find>isAddressEqualToNodeAddress</find>
+      <find>printAddress</find>
+      <find>introduceSelfToGroup</find>
+      <find>cleanUpNodeState</find>
+      <find>startnode</find>
+      <find>nodeStart</find>
+      <find>getJOIN</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Grader.sh" />
+        <option value="$PROJECT_DIR$/Log.h" />
+        <option value="$PROJECT_DIR$/Application.cpp" />
         <option value="$PROJECT_DIR$/MP1Node.h" />
+        <option value="$PROJECT_DIR$/Log.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/stdincludes.h" />
         <option value="$PROJECT_DIR$/MP1Node.cpp" />
       </list>
     </option>
@@ -136,17 +157,17 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
+    <option name="x" value="104" />
     <option name="y" value="23" />
-    <option name="width" value="1390" />
+    <option name="width" value="1335" />
     <option name="height" value="820" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,18 +175,25 @@
               <item name="mp1" type="b2602c69:ProjectViewProjectNode" />
               <item name="mp1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mp1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mp1" type="462c0819:PsiDirectoryNode" />
+              <item name="testcases" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Address&#9;null&#9;null&#10;ENsend&#9;null&#9;null&#10;elt&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="printinfo&#9;null&#9;null&#10;Address&#9;null&#9;null&#10;ENsend&#9;null&#9;null&#10;elt&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -206,12 +234,20 @@
       <workItem from="1524523356652" duration="3000" />
       <workItem from="1524523964624" duration="1694000" />
       <workItem from="1524547702280" duration="5434000" />
-      <workItem from="1524592056611" duration="3029000" />
+      <workItem from="1524592056611" duration="5574000" />
+      <workItem from="1524695829340" duration="17396000" />
+      <workItem from="1524776831184" duration="472000" />
+      <workItem from="1524865701444" duration="3000" />
+      <workItem from="1524945838393" duration="1050000" />
+      <workItem from="1524949905596" duration="510000" />
+      <workItem from="1524952980350" duration="325000" />
+      <workItem from="1524953313095" duration="7000" />
+      <workItem from="1524953333092" duration="6000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20365000" />
+    <option name="totallyTimeSpent" value="42679000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -223,24 +259,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="23" width="1390" height="820" extended-state="0" />
-    <editor active="true" />
+    <frame x="104" y="23" width="1335" height="820" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14536157" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15753424" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969433" />
       <window_info anchor="bottom" id="CMake" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19213974" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35131398" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2351314" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.17150761" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23789765" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3286026" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32780084" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -252,60 +287,69 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Log.cpp</url>
+          <line>146</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Log.cpp</url>
+          <line>133</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>tmpinfo</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Str.c_str()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>info</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>joinaddr.addr</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>joinaddr</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Member.h">
+    <entry file="file://$PROJECT_DIR$/stdincludes.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="60" column="3" lean-forward="true" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
+        <state relative-caret-position="450">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MP1Node.h">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Queue.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="67" lean-forward="true" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/queue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5256">
-          <caret line="292" column="13" selection-start-line="292" selection-start-column="13" selection-end-line="292" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Member.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2592">
-          <caret line="144" column="25" selection-start-line="144" selection-start-column="25" selection-end-line="144" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EmulNet.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1656">
-          <caret line="94" column="11" lean-forward="true" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EmulNet.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2574">
-          <caret line="143" column="13" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
+        <state relative-caret-position="144">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -482,51 +526,12 @@
         <state relative-caret-position="-110" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/stdlib.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="160" column="9" selection-start-line="160" selection-start-column="9" selection-end-line="160" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stdincludes.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Params.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/include/stdlib.h" />
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/queue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5256">
           <caret line="292" column="13" selection-start-line="292" selection-start-column="13" selection-end-line="292" selection-end-column="13" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Queue.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Log.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1804" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Member.cpp">
@@ -540,27 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1674">
           <caret line="93" column="11" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Params.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2772">
-          <caret line="154" column="25" selection-start-line="154" selection-start-column="25" selection-end-line="154" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -585,24 +569,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Member.h">
+    <entry file="file://$PROJECT_DIR$/newGrader.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="107" column="28" selection-start-line="107" selection-start-column="28" selection-end-line="107" selection-end-column="28" />
+        <state relative-caret-position="193">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/stdio.h" />
+    <entry file="file:///usr/include/math.h" />
+    <entry file="file://$PROJECT_DIR$/Queue.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Log.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbg.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Log.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2466">
+          <caret line="137" column="25" selection-start-line="137" selection-start-column="25" selection-end-line="137" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MP1Node.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="81" column="42" lean-forward="true" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
+        <state relative-caret-position="1404">
+          <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
+          <folding>
+            <element signature="e#235#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="85" column="3" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Params.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Params.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Member.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stdincludes.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MP1Node.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="325" column="4" selection-start-line="325" selection-start-column="4" selection-end-line="325" selection-end-column="4" />
+        <state relative-caret-position="-1527">
+          <caret line="237" column="42" selection-start-line="237" selection-start-column="42" selection-end-line="237" selection-end-column="42" />
         </state>
       </provider>
     </entry>
