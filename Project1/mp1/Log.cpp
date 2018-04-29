@@ -139,11 +139,18 @@ void Log::printinfo(char* info) {
         fp4 = fopen(stdstring4, "w");
     }
 
-
-	sprintf(stdstring4, "Node %d.%d.%d.%d:%d address %d", info[0], info[1], info[2], info[3], *(short *)&info[4], par->getcurrtime());
-
-
-
+	sprintf(stdstring4, "Node %d.%d.%d.%d:%d at time: %d", info[0], info[1], info[2], info[3], *(short *)&info[4], par->getcurrtime());
 	fprintf(fp4, "\n %s", stdstring4);
+}
 
+void Log::printlog(string s){
+	static FILE* fp4;
+	char stdstring4[60];
+	stdstring4[0] = 0;
+	strcat(stdstring4, Logg);
+	if (fp4 == nullptr) {
+		fp4 = fopen(stdstring4, "w");
+	}
+	sprintf(stdstring4, "%s", s.c_str());
+	fprintf(fp4, "\n %s", stdstring4);
 }

@@ -53,6 +53,12 @@ Member.h
 /Users/EricGao/Desktop/UIUC_CC/Project1/mp1/MP1Node.cpp
 MP1Node.h
 /Users/EricGao/Desktop/UIUC_CC/Project1/mp1/MP1Node.h
+string.h
+-
+string
+-
+cstring
+-
 
 /Users/EricGao/Desktop/UIUC_CC/Project1/mp1/MP1Node.h
 stdincludes.h
@@ -130,5 +136,7 @@ algorithm
 queue
 -
 fstream
+-
+cstring
 -
 

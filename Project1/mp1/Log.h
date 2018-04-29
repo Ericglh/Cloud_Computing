@@ -20,6 +20,7 @@
 #define DBG_LOG "dbg.log"
 #define STATS_LOG "stats.log"
 #define RANDOM "random.log"
+#define Logg "logg.log"
 
 /**
  * CLASS NAME: Log
@@ -39,6 +40,7 @@ public:
 	void logNodeAdd(Address *, Address *);
 	void logNodeRemove(Address *, Address *);
 	void printinfo(char* info);
+	void printlog(string s);
 };
 
 #endif /* _LOG_H_ */
