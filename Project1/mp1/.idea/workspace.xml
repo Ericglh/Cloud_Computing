@@ -11,31 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81fd9eee-8404-423f-92de-e15cf60781c7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application" beforeDir="false" afterPath="$PROJECT_DIR$/Application" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application.o" beforeDir="false" afterPath="$PROJECT_DIR$/Application.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmulNet.o" beforeDir="false" afterPath="$PROJECT_DIR$/EmulNet.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Log.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log.h" beforeDir="false" afterPath="$PROJECT_DIR$/Log.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log.o" beforeDir="false" afterPath="$PROJECT_DIR$/Log.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP1Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MP1Node.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MP1Node.o" beforeDir="false" afterPath="$PROJECT_DIR$/MP1Node.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Member.o" beforeDir="false" afterPath="$PROJECT_DIR$/Member.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Params.o" beforeDir="false" afterPath="$PROJECT_DIR$/Params.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mp1.dir/Application.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mp1.dir/Application.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mp1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mp1.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mp1.dir/EmulNet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mp1.dir/EmulNet.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mp1.dir/Log.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mp1.dir/Log.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mp1.dir/MP1Node.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mp1.dir/MP1Node.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mp1.dir/Member.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mp1.dir/Member.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mp1.dir/Params.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mp1.dir/Params.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/mp1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/mp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dbg.log" beforeDir="false" afterPath="$PROJECT_DIR$/dbg.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msgcount.log" beforeDir="false" afterPath="$PROJECT_DIR$/msgcount.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random.log" beforeDir="false" afterPath="$PROJECT_DIR$/random.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stdincludes.h" beforeDir="false" afterPath="$PROJECT_DIR$/stdincludes.h" afterDir="false" />
-    </list>
+    <list default="true" id="81fd9eee-8404-423f-92de-e15cf60781c7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -278,12 +254,12 @@
       <workItem from="1524953650451" duration="26000" />
       <workItem from="1524953843902" duration="8000" />
       <workItem from="1524953855945" duration="659000" />
-      <workItem from="1524954580263" duration="8501000" />
+      <workItem from="1524954580263" duration="8828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51958000" />
+    <option name="totallyTimeSpent" value="52285000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
