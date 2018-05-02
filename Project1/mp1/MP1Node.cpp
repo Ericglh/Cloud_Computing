@@ -244,7 +244,6 @@ bool MP1Node::recvCallBack(void *env, char *data, int size ) {
         memberNode->inGroup = true;
 
         deserializeMemberListTableForJOINREPMsgReceiving(data);
-        //log->printlog("send joinrep");
     } else if (recvMsg->msgType == JOINREQ) {
 
         int id;
@@ -259,7 +258,6 @@ bool MP1Node::recvCallBack(void *env, char *data, int size ) {
         Address address = getNodeAddress(id, port);
 
         sendJOINREPMsg(&address);
-        //log->printlog("send joinreq");
     } else if (recvMsg->msgType == HEARTBEAT) {
         int id;
         short port;
