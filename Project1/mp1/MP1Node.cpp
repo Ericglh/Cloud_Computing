@@ -245,7 +245,6 @@ bool MP1Node::recvCallBack(void *env, char *data, int size ) {
 
         deserializeMemberListTableForJOINREPMsgReceiving(data);
     } else if (recvMsg->msgType == JOINREQ) {
-
         int id;
         short port;
         long heartbeat;
